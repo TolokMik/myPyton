@@ -1,2 +1,3 @@
 #first file on Pyton
-print("hi!")
+name = input("Name: ")
+print(f"Hello, {name}!")
