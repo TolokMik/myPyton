@@ -1,3 +1,8 @@
 #first file on Pyton
-name = input("Name: ")
-print(f"Hello, {name}!")
+n = int(input("input n: "))
+if n > 0:
+    print("n is positive")
+elif n<0:
+    print("n is negative")
+else:
+    print(f"n is zero")
